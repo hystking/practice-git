@@ -1,16 +1,26 @@
 h1 {
-  font-size: 32px;
-  margin: 1em 0 1em 32px;
+  box-sizing: border-box;
+  width: 640px;
+  margin: 1em auto 0;
+  font-size: 48px;
   font-weight: bold;
+  font-family: serif;
+  line-height: 1;
+  padding: 0 0 0 0.5em;
+  border-left: solid 0.2em #000;
 }
 
 h2 {
+  width: 640px;
+  margin: 1em auto;
   font-size: 24px;
-  margin: 1em 0 1em 32px;
   font-weight: bold;
+  font-family: serif;
 }
 
 p {
+  width: 640px;
+  margin: 1em auto;
   font-size: 18px;
-  margin: 1em 0 1em 32px;
+  font-family: serif;
 }
