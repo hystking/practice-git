@@ -8,3 +8,8 @@ const sample = new Sample({
 $('.wrapper').on('click', () => {
     console.log(`hello, ${sample.name}.`);
 });
+
+setTimeout(() => {
+  $("h1, h2, p").fadeIn();
+}, 1000);
+
